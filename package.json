@@ -1,0 +1,25 @@
+{
+  "name": "node-cpp-addons-tests",
+  "version": "0.1.0",
+  "author": "vincent0700 (https://vincentstudio.info)",
+  "email": "wang.yuanqiu007@gmail.com",
+  "description": "C++ addons demo for Node.js",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "start": "node src/index",
+    "build": "node-gyp rebuild",
+    "lint": "eslint --fix . && prettier --write ./**/*.{md,html,json,css,scss,less}"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.3",
+    "node-gyp": "^6.1.0",
+    "prettier": "^1.19.1"
+  }
+}
